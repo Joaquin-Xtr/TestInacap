@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="jquery/jquery-3.5.1.js" type="text/javascript"></script>
+        <script src="js/funcionesJQuery_T15.js" type="text/javascript"></script>
+        
+    </head>
+        <body>
+        <script>
+            var x;
+            x=$(document);
+            x.ready(inicializarEventos);
+        </script>
+        <input type="button" value="Obtener texto contenido en el párrafo" id="boton1" />
+        <input type="button" value="Modificar el texto de párrafo" id="boton2" />
+        <input type="button" value="Modificar el texto de elementos TD en una tabla" id="boton3" />
+        <p id="parrafo1">Texto del Primer Párrafo</p>
+        <table border="1">
+            <tr>
+                <td>celda 1,1 </td><td>celda 1,2 </td>
+                <td>celda 2,1 </td><td>celda 2,2 </td>
+            </tr>
+        </table>
+        <br>
+        <input type="button" value="Añadir Propiedad BORDER" id="boton4" /><br>
+        <input type="button" value="Recuperar valor de Propiedad BORDER" id="boton5" /><br>
+        <input type="button" value="Eliminar Propiedad BORDER" id="boton6" /><br>
+        
+        <table id="tabla1">
+            <tr>
+                <td>111111</td><td>111111</td><td>111111</td><td>111111</td>
+            </tr>
+            <tr>
+                <td>222222</td><td>222222</td><td>222222</td><td>222222</td>
+            </tr>
+            <tr>
+                <td>333333</td><td>333333</td><td>333333</td><td>333333</td>
+            </tr>
+        </table>
+        <br>
+        <input type="button" value="Mostrar formulario" id="boton7" />
+        <input type="button" value="Mostrar elementos HTML" id="boton8" /><br>
+        
+        <section id="formulario">
+            
+        </section>
+        <br>
+        <a href="http://www.inacap.cl">Portal Inacap</a><br>
+        <a href="http://www.ubiobio.cl">La mejor U</a><br>
+        <a href="https://www.universal.org/es/bispo-macedo/los-reprobados/">Portal Reprobados</a><br>
+    </body>
+</html>

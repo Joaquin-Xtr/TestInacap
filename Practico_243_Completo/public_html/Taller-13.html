@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+        var paso = function () {
+            alert('No tengo nombre!!!');
+        };
+        paso(); //invoca a la variable que es "tipo función"
+        //***************
+        var paso2 = function(nom) {
+            alert('No tengo nombre 2: '+ nom);
+        };
+        paso2('Juano');
+        //***************    
+        (function() {
+            alert('Segunda sin nombre y se ejecuta sola');
+            }()); //se ejecuta sola
+        //***************
+        (function(uno,dos,tres){
+            alert(uno);
+            alert(dos);
+            alert(tres);
+        }(1,2,3));
+        </script>    
+    </body>
+</html>

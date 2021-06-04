@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/FuncionesEventos.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var contador = 0;
+            function aumentar(){
+                contador++;
+                alert('Valor del contador: ' + contador);
+            }
+        </script>
+        <form>
+            <input type="button" onclick="aumentar()" value="Aumentar">
+        </form>
+        <form>
+            Ingrese Clave:
+            <input type="password" id="claveID"/><br>
+            <input type="button" value="Validar" onclick="validar()"/>
+        </form>
+        <form>
+            <select id="select1" onchange="modificarColor()">
+                <option value="0xff0000">Rojo</option>
+                <option value="0x00ff00">Verde</option>
+                <option value="0x0000ff">Azul</option>
+            </select>
+            <br>
+            Indice seleccionado:<input type="text" id="text1"><br>
+            Texto:<input type="text" id="text2"><br>
+            Valor:<input type="text" id="text3"><br>
+        </form>
+        <form>
+            <input type="checkbox" id="checkbox1">JavaScript
+            <br>
+            <input type="checkbox" id="checkbox2">PHP
+            <br>
+            <input type="checkbox" id="checkbox3">JSP
+            <br>
+            <input type="checkbox" id="checkbox4">Java
+            <br> 
+            <input type="button" value="Mostrar" onClick="contarSeleccionados()"/>
+        </form>
+        <form>
+            <input type="radio" id="radio1" name="estudios">Sin estudios
+            <br>
+            <input type="radio" id="radio2" name="estudios">Básica
+            <br>
+            <input type="radio" id="radio3" name="estudios">Media
+            <br>
+            <input type="radio" id="radio4" name="estudios">Universitarios
+            <br>
+            <input type="button" value="Mostrar" onClick="mostrarSeleccionados()"/>
+        </form>
+    </body>
+</html>

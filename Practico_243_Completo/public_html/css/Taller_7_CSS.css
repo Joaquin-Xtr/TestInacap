@@ -1,0 +1,45 @@
+form{
+    background-color: orangered;
+    color: aliceblue;
+    
+}
+input{
+    color: red;
+    
+}
+fieldset{
+    border-radius: 5px;
+    border: 1px dotted green;
+    
+}
+#mascotas{
+    background-color: yellow;
+    color: blue;
+}
+input[required]{
+   border-color: blue;
+   box-shadow: 0px 0px 5px blue;
+   
+}
+input:invalid{
+   border-color: greenyellow;
+   box-shadow: 0px 0px 5px greenyellow;
+   
+}
+input:valid{
+   border-color: blueviolet;
+   box-shadow: 0px 0px 5px blueviolet;
+   
+}
+@media only screen and (max-width:320px){
+    form{
+        background-color: chartreuse;
+        color: hotpink;
+    }
+}
+/*@media only screen and (max-device-width:320px){
+    form{
+        background-color: chartreuse;
+        color: hotpink;
+    }
+}*/

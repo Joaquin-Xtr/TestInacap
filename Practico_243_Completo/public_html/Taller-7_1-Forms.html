@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=2">
+        <link href="css/Taller_7_CSS.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            Esta página está echa para ver nuestro formulario
+        </header>
+        <form name="formularioMio" action="Practico7_2.html" method="get"><br>
+            Usuario: <input type="text" name="txtNombre" placeholder="ejemplo: willy" title="Pasó el mouse..." size="40" required autofocus/><br>
+            Clave: <input type="password" placeholder="*****" name="clave" title="Ingrese contraseña" size="7" minlength="5" maxlength="5" required/><br>
+            Mail: <input type="email" name="correo" placeholder="guille@trap.cl" title="Ingresa un correo" required/><br>
+            Fecha: <input type="date" name="fecha" value="2020-09-21" title="Ingrese fecha de nacimiento"/><br>
+            Años Laborales: <input type="range" name="rango" min="0" max="10" step="2" value="0" title="Ingrese años de experiencia"/><br>
+            Color: <input type="color" name="color" value="#ff0000" title="Ingrese color favorito" /><br>
+            Tamaño Comunidad: <input type="number" name="numero" min="0" max="1000" step="10" value="1" title="Ingrese tamaño de su comunidad"/><br>
+            Botón: <input type="button" value="Presióname" name="boton" /><br>
+            
+            <fieldset id="sedes">
+            CheckBox: ¿Marca tus sedes favoritas?<br>
+            <input type="checkbox" name="sede1" value="Renca" /> Renca<br>
+            <input type="checkbox" name="sede2" value="Santiago Centro" /> Santiago Centro<br>
+            <input type="checkbox" name="sede3" value="Concepción (la mejor)" checked /> Concepción<br>
+            </fieldset>
+            
+            <fieldset id="mascotas">
+                
+            Radio: Mascotas<br>
+            <input type="radio" name="mascotas" value="Lagarto" />Lagarto<br>
+            <input type="radio" name="mascotas" value="Perro" /> Perro<br>
+            <input type="radio" name="mascotas" value="Gato" /> Gato<br>
+            <input type="radio" name="mascotas" value="Mastodonte" /> Mastodonte<br>
+            </fieldset>
+            
+            <input type="file" name="archivo" /><br>
+            <input type="search" name="busqueda" placeholder="Ingrese termino de clave" />
+            <input type="button" name="botonBuscar" value="Buscar" /><br>
+            Teléfono: <input type="tel" ><br>
+
+            <input type="submit" value="Enviar mi formulario" name="Enviar" /> <br>
+        </form>
+    </body>
+</html>

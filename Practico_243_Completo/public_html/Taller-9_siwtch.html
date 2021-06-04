@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var valor;
+            valor = prompt('Ingrese número entre 1 y 5: ', '');
+            valor = parseInt(valor);
+            switch (valor) {
+                case 1:
+                    document.write('Uno');
+                    break;
+                    
+                case 2:
+                    document.write('Dos');
+                    break;
+                    
+                case 3:
+                    document.write('Tres');
+                    break;
+                    
+                case 4:
+                    document.write('Cuatro');
+                    break;
+                    
+                case 5:
+                    document.write('Cinco');
+                    break;
+                default:
+                    document.write('ERROR DE INGRESO, LEA BIEN.');
+                    break;
+            }
+            
+            var color;
+            color = prompt('Elija color (rojo, verde, azul)','');
+            switch (color) {
+    case 'rojo':
+        document.bgColor = '#ff0000';
+        break;
+    case 'verde':
+        document.bgColor = '#00ff00';
+        break;
+    case 'azul':
+        document.bgColor = '#0000ff';
+        break;
+    default:
+        document.write('<br>');
+        document.write('INGRESE COLOR VALIDO...');
+        break;
+}
+        </script>
+    </body>
+</html>

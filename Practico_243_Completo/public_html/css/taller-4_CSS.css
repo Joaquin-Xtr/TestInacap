@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/08/2020, 04:52:50 PM
+    Author     : Diego
+*/
+.claseLetra{
+    /*    color: blue;*/
+    color: #1162ac;
+    font-family: helvetica;
+    /*    font-family: charlemagne;*/
+    /*    font-size: 20px;*/
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px #1162ac;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 15px;
+    word-spacing: 30px;
+    background-color: tomato;
+    background-color: rgba(12,65,32,0.55);
+    padding: 20px;
+
+}
+#art_1{
+    color: goldenrod;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px #424242 ;
+    text-align: right;
+    letter-spacing: -4px;
+}
+#art_3{
+    color: goldenrod;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px #424242 ;
+    text-align: end;
+    letter-spacing: 20px;
+}
+#art_5{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px #2262ac ;
+    line-height: 70px;
+    word-spacing: 30px;
+    background-color: #00e676;
+    padding: 20px 0px 6px 40px;
+}
+#art_7{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px green ;
+    line-height: 100px;
+    word-spacing: -10px;
+}
+

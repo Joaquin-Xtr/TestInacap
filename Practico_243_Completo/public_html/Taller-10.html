@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+            function mostrarMensaje() { //Función sin retorno y sin parametrizada
+                document.write('Me llamaste?' + '<br>');
+                document.write('Acá estoy' + '<br>');
+            }
+            //******************************
+            function mostrarRango(x1, x2) { //Función sin retorno y parametrizada
+                var inicio;
+                for (inicio = x1; inicio <= x2; inicio++) {
+                    document.write(inicio + ' ');
+                }
+            }
+            //******************************
+
+            function convertirNumAPalabra(num) { //Función con retorno y parametrizada
+                switch (num) {
+                    case 1:
+                        return 'Uno';
+                        break;
+                    case 2:
+                        return 'Dos';
+                        break;
+                    case 3:
+                        return 'Tres';
+                        break;
+                    case 4:
+                        return 'Cuatro';
+                        break;
+                    case 5:
+                        return 'Cinco';
+                        break;
+
+                    default:
+                        return 'Valor incorrecto';
+                        break;
+                }
+            }
+
+            //******************************
+            mostrarMensaje();
+            var num1, num2;
+            num1 = prompt('Ingrese primer número', '');
+            num2 = prompt('Ingrese segundo número', '');
+            num1 = parseInt(num1);
+            num2 = parseInt(num2);
+            mostrarRango(num1, num2);//Invoca a función parametrizada
+            document.write('<br>');
+            var valor;
+            valor = prompt('Ingrese número del 1 al 5', '');
+            valor = parseInt(valor);
+            //var r = convertirNumAPalabra(valor);
+            //document.write(r);
+            document.write(convertirNumAPalabra(valor)); //Utilizara el retorno
+        </script>
+    </body>
+</html>
